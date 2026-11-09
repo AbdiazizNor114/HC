@@ -41,3 +41,11 @@ The curtain imagery is supplied by the user and stored in `public/images/catalog
 These four images are used across the home page, curtain category cards, product cards, and curtain galleries. The previous sourced curtain photographs are no longer referenced. Product names, colour choices, and prices remain demo catalogue data.
 
 The Blinds category uses the supplied `roman-blind.webp`; Carpets uses the supplied `woven-carpet.webp`, both in `public/images/catalogue`.
+
+## Live demo and responsive verification
+
+Production: https://outdoor-home-curtains.vercel.app
+
+Vercel is connected to `AbdiazizNor114/HC`; pushes to `main` trigger production deployments. The local `.vercel` account/project metadata is ignored.
+
+Verified Home, Collections, Product Detail, Calculator, Order, About, and Contact at 320, 390, 768, 1024, and 1440 px widths without document-level horizontal overflow. Also visually checked the narrow-phone calculator and populated order, mobile navigation, tablet product gallery, and deployed mobile homepage. All six supplied images are bundled locally. Contact details and prices remain demo placeholders.
